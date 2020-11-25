@@ -2,32 +2,32 @@
 A simple biophysical model for chromosome condensation simulations
 
 
-Table of Contents
+## Table of Contents
 
-•	About ‘Chromo-sim’
+### •	 About ‘Chromosome-condensation’
 
-•	Getting Started
+### •	 Getting Started
 
-•	Usage
+### • Usage
 
-•	Output & visualization
+### •	Output & visualization
 
-•	Documentation
+### •	Documentation
 
-•	License
+### •	License
 
-•	Contact
+### •	Contact
 
-•	Acknowledgements
+### •	Acknowledgements
 
 
-About ‘Chromosome-condensation’
+### About ‘Chromosome-condensation’
 
 ‘Chromosome-condesation’ code is a C++ biophysical software designed for Brownian dynamics of chromatin condensation with two distinct mechanisms – ‘diffusion capture’ which is based on pairwise interactions between chromatin loci or between particles mimicking condensin/cohesin, and ‘loop extrusion’, resulting in formation of chromatin loops. ‘Chromo-sim’ can be also used for simple Brownian dynamics simulations of free polymers without any condensation mechanisms (Yasu’s paper). 
 For in-depth description of the model and biophysical algorithms applied, please see https://www.biorxiv.org/content/10.1101/2020.10.15.341305v1.
 
 
-Getting Started
+### Getting Started
 
 This is an example of how you may set up the code running for your projects locally.
 
@@ -40,7 +40,7 @@ o	Installation
 git clone https://github.com/.......
 
 
-Usage
+### Usage
 
 First, create a folder where you want to run simulations:
 mkdir test_sim
@@ -56,12 +56,12 @@ Run the simulation:
 ./chromo 
 
 
-Output & visualization
+### Output & visualization
 
 The main output of code are PDB files from specific timepoints with coordinates of polymer and condensin/cohesin proteins.These can be visalized using Chimera, VMD or PyMOL. There are additional output files to monitor further events in the simulations (‘Documentation’) you can opt for. 
 
 
-Documentation – parameters 
+### Documentation – parameters 
 
 The ‘Chromosome-condensation’ code consists of several files:
 
@@ -90,16 +90,17 @@ Optional output files and their corresponding parameters are:
 
 
 
-License
-Distributed un the Crick License. See LICENSE for more information.
+### License
+Distributed under the Crick License. See LICENSE for more information.
  
 
-Contact
+### Contact
 •	Xiao Fu - @foolbirdie, xiao.fu@crick.ac.uk
 •	Tereza Gerguri - @GerguriTereza, tereza.gerguri@crick.ac.uk
 •	Paul Bates - @PaulBatesBMM, paul.bates@crick.ac.uk
 
-Acknowledgements
+
+### Acknowledgements
 
 This code was developed under the Biomolecular Modelling Laboratory https://www.crick.ac.uk/research/labs/paul-bates at Francis Crick Institute (https://www.crick.ac.uk/ ) as a part of collaboration with Chromosome Segregation Laboratory https://www.crick.ac.uk/research/labs/frank-uhlmann. 
 Please cite our paper (https://www.biorxiv.org/content/10.1101/2020.10.15.341305v1) when using the code.
