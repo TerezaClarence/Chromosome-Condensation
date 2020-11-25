@@ -20,6 +20,7 @@ A simple biophysical model for chromosome condensation simulations
 
 ### •	Acknowledgements
 
+------------------------------------
 
 ### About ‘Chromosome-condensation’
 
@@ -35,8 +36,8 @@ This is an example of how you may set up the code running for your projects loca
 -	C++ built-in
 -	Visualization software such as Chimera, VMD or PyMOL
 
-#### Installation
-1.	You can download the code (initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile)
+#### Installation
+1.	You can download the code (`initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile`)
 2.	Or you can clone the repo: git clone https://github.com/FrancisCrickInstitute/Chromosome-Condensation
 
 
@@ -44,12 +45,13 @@ This is an example of how you may set up the code running for your projects loca
 
 First, create a folder where you want to run simulations:
 `mkdir test_sim`
+
 `cd test_sim`
 
 Make sure you copy all the code files from chromo_sim_code to the folder where you want to run simulations:
 `cp path_to_code_folder/chromo_sim_code/* ./ `
 
-Next, set up parameters in the initConfig.hpp (for parameter description see ‘Documentation’) and then compile the code:
+Next, set up parameters in the initConfig.hpp (for parameter description see **Documentation**) and then compile the code:
 `make`
 
 Run the simulation:
