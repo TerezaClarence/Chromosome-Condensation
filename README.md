@@ -77,18 +77,18 @@ The ‘Chromosome-condensation’ code consists of several files:
 General parameter set up can be adjusted in **initConfig.hpp** file. **README_parameters.xlsx** contains more in-depth description of polymer simulation parameters.
 
 Optional output files and their corresponding parameters are:
-•	_chromoPDB_*.pdb* = PDB file format of chromatin chain with binders/condensin in selected time point
+•	*_chromoPDB_*.pdb* = PDB file format of chromatin chain with binders/condensin in selected time point
 
-•	_DC_stats_index2.txt_ = number of diffusion capture interactions/pairs in time
+•	*_DC_stats_index2.txt_* = number of diffusion capture interactions/pairs in time
 
-•	_binder_attach_site.txt_ = site on chromatin chain where binders are attached
-•	_loop_size.txt_ = loops sizes in time
-•	_nested_loops.txt_ = number of nested loops in time
+•	*_binder_attach_site.txt_* = site on chromatin chain where binders are attached
+•	*_loop_size.txt_* = loops sizes in time
+•	*_nested_loops.txt_* = number of nested loops in time
 
-•	_voxMap_occupancy.txt_ = number of beads in each voxel
-•	_voxMap_occupancy2new.txt_ = number of occupied voxels
+•	*_voxMap_occupancy.txt_* = number of beads in each voxel
+•	*_voxMap_occupancy2new.txt_* = number of occupied voxels
 
-•	_msd_bead_coord.txt_ = coordinate monitoring in selected time windows, used for further MSD and anisotropy calculations
+•	*_msd_bead_coord.txt_* = coordinate monitoring in selected time windows, used for further MSD and anisotropy calculations
 
 
 
@@ -97,9 +97,9 @@ Distributed under **The Francis Crick Institute License**.
  
 
 ### Contact
--	Xiao Fu - @foolbirdie, xiao.fu@crick.ac.uk
--	Tereza Gerguri - @GerguriTereza, tereza.gerguri@crick.ac.uk
--	Paul Bates - @PaulBatesBMM, paul.bates@crick.ac.uk
+-	**Tereza Gerguri** - @GerguriTereza, tereza.gerguri@crick.ac.uk
+-	**Xiao Fu** - @foolbirdie, xiao.fu@crick.ac.uk
+-	**Paul Bates** - @PaulBatesBMM, paul.bates@crick.ac.uk
 
 
 ### Acknowledgements
