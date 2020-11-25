@@ -91,13 +91,13 @@ Optional output files and their corresponding parameters are:
 
 
 ### License
-Distributed under the Crick License. See LICENSE for more information.
+Distributed under ### The Francis Crick Institute License. 
  
 
 ### Contact
-•	Xiao Fu - @foolbirdie, xiao.fu@crick.ac.uk
-•	Tereza Gerguri - @GerguriTereza, tereza.gerguri@crick.ac.uk
-•	Paul Bates - @PaulBatesBMM, paul.bates@crick.ac.uk
+-	Xiao Fu - @foolbirdie, xiao.fu@crick.ac.uk
+-	Tereza Gerguri - @GerguriTereza, tereza.gerguri@crick.ac.uk
+-	Paul Bates - @PaulBatesBMM, paul.bates@crick.ac.uk
 
 
 ### Acknowledgements
