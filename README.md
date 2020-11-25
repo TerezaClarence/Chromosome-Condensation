@@ -21,9 +21,9 @@ Table of Contents
 •	Acknowledgements
 
 
-About ‘Chromo-sim’
+About ‘Chromosome-condensation’
 
-‘Chromo-sim’ code is a C++ biophysical software designed for Brownian dynamics of chromatin condensation with two distinct mechanisms – ‘diffusion capture’ which is based on pairwise interactions between chromatin loci or between particles mimicking condensin/cohesin, and ‘loop extrusion’, resulting in formation of chromatin loops. ‘Chromo-sim’ can be also used for simple Brownian dynamics simulations of free polymers without any condensation mechanisms (Yasu’s paper). 
+‘Chromosome-condesation’ code is a C++ biophysical software designed for Brownian dynamics of chromatin condensation with two distinct mechanisms – ‘diffusion capture’ which is based on pairwise interactions between chromatin loci or between particles mimicking condensin/cohesin, and ‘loop extrusion’, resulting in formation of chromatin loops. ‘Chromo-sim’ can be also used for simple Brownian dynamics simulations of free polymers without any condensation mechanisms (Yasu’s paper). 
 For in-depth description of the model and biophysical algorithms applied, please see https://www.biorxiv.org/content/10.1101/2020.10.15.341305v1.
 
 
@@ -63,13 +63,13 @@ The main output of code are PDB files from specific timepoints with coordinates 
 
 Documentation – parameters 
 
-The ‘Chromo-sim’ code consists of several files:
+The ‘Chromosome-condensation’ code consists of several files:
 
-initConfig.hpp = 
-initConfig.cpp = 
-initDynamics.hpp = 
-initDynamics.cpp =  
-chromoCell.cpp = 
+initConfig.hpp = includes parameter settings and declaration of functions that initialise the chromatin chain and binders
+initConfig.cpp = includes definition of functions that initialise the chromatin chain and binders
+initDynamics.hpp = includes declaration of functions that describe the dynamical evolution of chromatin chain and binders, including those detail rules of diffusion capture and loop extrusion
+initDynamics.cpp = includes definition of functions that describe the dynamical evolution of chromatin chain and binders, including those detail rules of diffusion capture and loop extrusion
+chromoCell.cpp = includes functions to call functions in files above to simulate the dynamical evolution of chromatin condensation
 
 
 General parameter set up can be adjusted in initConfig.hpp file, README_parameters.xlsx contains more in-depth description of parameters.
